@@ -1,0 +1,4 @@
+Técnica,Relevancia,Claridad,Precisión,Cumplimiento,Utilidad comercial
+Zero-shot,Responde al deck y propone continuar,"Ordenada, extensa: 245 palabras",Afirma catálogo de colores e interpreta el monto como materiales sin confirmación,Contradice el contexto sin catálogo ni alcance confirmados,Requiere correcciones antes de enviarse
+One-shot,"Solicita ubicación, fotos, color y plazo",Comprensible; 172 palabras,"Precio orientativo y alcance pendiente, sin catálogo inventado",Sigue el estilo del ejemplo y explicita revisión técnica,Borrador útil sujeto a revisión
+Few-shot,Solicita los cuatro datos faltantes,124 palabras; menor extensión conservando datos clave,Precio y alcance no confirmados; exige revisión técnica,Aplica los patrones de solicitud de datos y validación,Borrador útil sujeto a revisión

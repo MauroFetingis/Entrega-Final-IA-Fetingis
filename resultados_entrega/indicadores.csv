@@ -1,0 +1,4 @@
+Técnica,Palabras,Límite explícito,Dentro del límite,Señal de referencia orientativa,Señal de revisión humana,Menciona ubicación,Menciona fotos,Menciona color,Menciona plazo
+Zero-shot,245,,,True,False,True,True,True,False
+One-shot,172,,,True,True,True,True,True,True
+Few-shot,124,,,True,True,True,True,True,True
