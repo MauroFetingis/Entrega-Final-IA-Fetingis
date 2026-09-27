@@ -1,5 +1,12 @@
 # WPC Asiste — Proyecto Final
 Mauro Fetingis · Inteligencia Artificial: Generación de Prompts · Comisión 96165
+## Descripción
+
+WPC Asiste es una prueba de concepto de un asistente comercial para una empresa de revestimientos, decks y pérgolas de WPC. Aplica técnicas de prompting para preparar respuestas iniciales, solicitar información para presupuestar, visualizar proyectos y elaborar contenido comercial.
+
+## Acceso al proyecto
+- [Ver notebook con resultados](WPC_Asiste_Proyecto_Final.ipynb)
+- [Abrir notebook en Google Colab](https://colab.research.google.com/github/MauroFetingis/Entrega-Final-IA-Fetingis/blob/main/WPC_Asiste_Proyecto_Final.ipynb)
 
 ## Alcance y evidencia
 La integración con Gemini desde Python produjo tres respuestas reales: Zero-shot, One-shot y Few-shot. El bloqueo de cuota impidió terminar Dirigido, Iterativo y Redes. Estas tres etapas se presentan como **simulaciones didácticas elaboradas con ChatGPT**, rotuladas y excluidas del análisis empírico de Gemini.
@@ -18,5 +25,9 @@ Para completar la prueba real, configurar `GEMINI_API_KEY` en Secrets y cambiar 
 ## Evaluación
 Comparación cualitativa asistida por ChatGPT sobre tres salidas auténticas; no se atribuye a un evaluador humano ni se inventan calificaciones. El autor debe revisar el análisis. La muestra es exploratoria y no permite generalizar resultados.
 
-## Entrega en GitHub
-Subir el contenido descomprimido del paquete al repositorio público y entregar su enlace. El notebook debe verse directamente: no subir únicamente el ZIP. Esta versión documenta una validación parcial y no garantiza cumplir el requisito de ejecución integral del docente.
+## Estado y limitaciones
+La demostración puede ejecutarse sin credenciales recuperando tres respuestas reales de Gemini y mostrando tres ejemplos simulados identificados como tales.
+
+La validación mediante API es parcial: quedan pendientes las respuestas reales de Dirigido, Iterativo y Redes. Los resultados obtenidos corresponden a un único caso de prueba y no permiten generalizar el desempeño de las técnicas.
+
+Los presupuestos y las decisiones técnicas requieren validación humana. Las imágenes son conceptuales y los cálculos de ahorro utilizan datos simulados.
